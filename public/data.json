@@ -1,0 +1,125 @@
+{
+  "elements": [
+    {
+      "type": "radiogroup",
+      "name": "product_discovering",
+      "title": "How did you first discover our product?",
+      "choices": [
+        "Search engine",
+        "GitHub",
+        "Friend or colleague",
+        {
+          "value": "Reddit",
+          "text": "Reddit"
+        },
+        "Medium",
+        "Twitter",
+        "Facebook"
+      ],
+      "counts": [25, 10, 15, 5, 8, 12, 20]
+    },
+    {
+      "type": "radiogroup",
+      "name": "useproduct",
+      "title": "Do you currently use our libraries?",
+      "isRequired": true,
+      "choices": [ "Yes", "No" ],
+      "counts": [45, 30]
+    },
+    {
+      "type": "checkbox",
+      "name": "uselibraries",
+      "title": "Which libraries do you use?",
+      "choices": [
+        {
+          "text": "Form Library",
+          "value": "Survey Library (Runner)"
+        },
+        {
+          "text": "Survey Creator",
+          "value": "Survey Creator (Designer)"
+        }
+      ],
+      "counts": [20, 25]
+    },
+    {
+      "type": "rating",
+      "name": "nps_score",
+      "title": "How likely are you to recommend our product to a friend or colleague?",
+      "choices": [
+        "1 not likely",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10 Completely likely"
+      ],
+      "counts": [5, 8, 12, 18, 15, 10, 14, 22, 28, 30]
+    },
+    {
+      "type": "radiogroup",
+      "name": "product_recommend",
+      "title": "Have you recommended our product to anyone?",
+      "choices": [ "Yes", "No" ],
+      "counts": [35, 40]
+    },
+    {
+      "type": "checkbox",
+      "name": "javascript_frameworks",
+      "title": "Which JavaScript frameworks do you use?",
+      "showOtherItem": true,
+      "choices": [
+        "React",
+        "Angular",
+        "jQuery",
+        "Vue",
+        "Meteor",
+        "Ember",
+        "Backbone",
+        "Knockout",
+        "Aurelia",
+        "Polymer",
+        "Mithril"
+      ],
+      "counts": [28, 22, 15, 32, 10, 8, 5, 12, 18, 25, 30]
+    },
+    {
+      "type": "checkbox",
+      "name": "backend_language",
+      "title": "Which web backend programming languages do you use?",
+      "showOtherItem": true,
+      "choices": [
+        "Java",
+        "Python",
+        "Node.js",
+        "Go",
+        "Django",
+        {
+          "value": "Asp.net",
+          "text": "ASP.NET"
+        },
+        "Ruby"
+      ],
+      "counts": [18, 35, 28, 20, 15, 10, 12]
+    },
+    {
+      "type": "checkbox",
+      "name": "supported_devices",
+      "title": "Which device types do you need to support?",
+      "isRequired": true,
+      "choices": [
+        "Desktop",
+        {
+          "value": "Tablet",
+          "text": "Tablet"
+        },
+        "Mobile"
+      ],
+      "counts": [40, 22, 30]
+    }
+  ]
+}

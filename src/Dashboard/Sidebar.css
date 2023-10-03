@@ -1,0 +1,13 @@
+.sidebar-container {
+    width: 300px; /* Adjust the width as needed */
+    height: 100vh;
+    overflow-y: auto; /* Add a vertical scrollbar when content overflows */
+    position: fixed;
+    left: 0;
+    top: 1;
+    background-color: #f8f9fa;
+    padding: 15px;
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.1);
+  }
+ 
+  
